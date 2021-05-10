@@ -1,0 +1,60 @@
+.subscribe {
+  background: #FAFAFA;
+  
+  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    font-size: 34px;
+    color: #2c2b5e;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    @media only screen and (max-width: 768px) {
+      font-size: 22px;
+    }
+  }
+  .description {
+    color: #606060;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .subscriber-box {
+    display: flex;
+  }
+  .sub-inp {
+    font-size: 14px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    background: transparent;
+    padding: 13px 30px;
+    &:focus {
+      outline: none;
+    }
+  }
+  .sub-btn {
+    background: #2c2b5e;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    @media only screen and (max-width: 768px) {
+      padding: 8px 9px;
+    font-size: 11px;
+    }
+    
+    &:hover {
+      background: #ec1c23;
+    }
+  }
+}
